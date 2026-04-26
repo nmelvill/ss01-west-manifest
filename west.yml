@@ -5,10 +5,16 @@ manifest:
   remotes:
     - name: ncs
       url-base: https://github.com/nrfconnect
+    - name: nmelville
+      url-base: git@github.com:nmelvill
 
   projects:
     - name: nrf
       remote: ncs
       repo-path: sdk-nrf
-      revision: 3.0.0
+      revision: v3.0.0
       import: true
+    - name: ss01-firmware
+      remote: nmelville
+      repo-path: ss01-firmware
+      revision: main 
