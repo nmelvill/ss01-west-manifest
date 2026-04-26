@@ -1,6 +1,6 @@
 manifest:
   self:
-    path: my-manifest
+    path: ss01-west-manifest
   projects:
     - name: zephyr
       url: https://github.com/zephyrproject-rtos/zephyr
