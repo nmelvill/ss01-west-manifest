@@ -8,6 +8,7 @@ manifest:
     - name: nmelville
       url-base: git@github.com:nmelvill
 
+
   projects:
     - name: nrf
       remote: ncs
@@ -18,3 +19,8 @@ manifest:
       remote: nmelville
       repo-path: ss01-firmware
       revision: main 
+    - name: ss01-boards
+      remote: nmelville
+      repo-path: ss01-boards
+      revision: main
+      path: boards
