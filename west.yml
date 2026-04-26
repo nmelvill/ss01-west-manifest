@@ -1,12 +1,14 @@
 manifest:
   self:
     path: ss01-west-manifest
+  
+  remotes:
+    - name: ncs
+      url-base: https://github.com/nrfconnect
+
   projects:
-    - name: zephyr
-      url: https://github.com/zephyrproject-rtos/zephyr
-      revision: main
-      path: zephyr
-    - name: hal_nordic
-      url: https://github.com/zephyrproject-rtos/hal_nordic
-      revision: main
-      path: modules/hal/nordic
+    - name: nrf
+      remote: ncs
+      repo-path: sdk-nrf
+      revision: 3.0.0
+      import: true
